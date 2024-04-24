@@ -86,6 +86,8 @@ namespace BackendForFrontend.Controllers
 
 
 
+
+        // 取得書籍售出狀態-妍如新增
         [HttpGet("bookId/{bookId}")]
         public async Task<ActionResult<string>> GetUsedBookStateByBookId(int bookId)
         {
